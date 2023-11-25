@@ -85,16 +85,16 @@ nav ul li a{
 }
 /* main starts here */
 main{
-    max-width:60%;
+    max-width:75%;
     margin: 0 auto;
+    
+/* main ends here */
+/* about section starts here */
+.about{
     border-radius: 10px;
     background: #FFF8F3;
     padding: 130px;
 }
-/* main ends here */
-/* about section starts here */
-.about{
-    
 }
 .section-title{
     color: var(--Dark-01, #181818);
@@ -131,8 +131,50 @@ main{
     color: var(--Dark-03, #757575);
     text-align: center;
     font-family: Open Sans;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
 }
 /* about section ends here */
+/* what i do starts here */
+.what-i-do{
+    margin-top: 80px;
+}
+.what-i-do-description{
+    color: var(--Dark-03, #757575);
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 35px 0;
+}
+.skills-container{
+    display: flex;
+    gap: 25px;
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 8px;
+}
+.skills-container img{
+    height: 35px;
+    width: 35px;
+}
+.skill-title{
+    color: var(--Dark-01, #181818);
+    text-align: left;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+.skill-description{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+}
+/* what i do ends here */
