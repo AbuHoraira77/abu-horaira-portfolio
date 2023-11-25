@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    /* margin: 0; */
     font-family: 'Open Sans', sans-serif;
 }
 .btn-primary{
@@ -83,3 +83,56 @@ nav ul li a{
     border-radius: 25px;
 
 }
+/* main starts here */
+main{
+    max-width:60%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+}
+/* main ends here */
+/* about section starts here */
+.about{
+    
+}
+.section-title{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-description{
+    color: var(--Dark-03, #757575);
+    text-align: justify;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400
+}
+.info-description{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+/* about section ends here */
