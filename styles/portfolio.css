@@ -2,6 +2,18 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.btn-primary{
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    line-height: normal;
+}
 /* header and navigation style */
 .nav-title{
     font-size: 45px;
@@ -20,6 +32,7 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 nav ul li{
     list-style: none;
