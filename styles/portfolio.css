@@ -3,16 +3,19 @@
     font-family: 'Open Sans', sans-serif;
 }
 .btn-primary{
-    width: 100px;
+    width: 130px;
     height: 45px;
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     color: white;
     line-height: normal;
+}
+.header{
+    background: #FFF8F3;
 }
 /* header and navigation style */
 .nav-title{
@@ -27,7 +30,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin:50px 200px
+    margin:0px 100px 50px;
 
 }
 nav ul{
@@ -41,4 +44,42 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
+}
+/* banner style starts here */
+.banner{
+    display: flex;
+    margin: 20px 100px;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right left;
+    /* background-size:contain; */
+}
+.banner-sub-title{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+.banner-title{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.banner-description{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-style: normal;
+    margin-top: 20px;
+
+}
+.banner-img{
+    width: 280px;
+    height: 350px;
+    border-radius: 25px;
+
 }
